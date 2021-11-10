@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 11px;
+}
+
+.headingtext{
+  height: 10%;
+  border: 0.1em solid rgb(1, 29, 29);
+  background-color: rgb(5, 12, 12);
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
+
+#usersubmit{
+  margin-right: 5em ;
+}
+
+.userinput{
+  margin-left: 1em;
+}
+
+.section{
+  margin:0.5em 0;
+}
