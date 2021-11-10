@@ -8,6 +8,8 @@ export function Actionsection(){
        <input type="submit" id="usersubmit" value="insert"/> 
        <input type="text" className="userinput" value=""  />
        <input type="submit" id="usersubmit" value="remove"/> 
+       <input type="text" className="userinput" value=""  />
+       <input type="submit" id="usersubmit" value="clearAll"/> 
      </form>
 
     )

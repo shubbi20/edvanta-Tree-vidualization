@@ -28,3 +28,9 @@ html{
 .section{
   margin:0.5em 0;
 }
+#canvas1{
+  position: absolute;
+  background-color: rgb(220, 243, 243);
+  width: 100%;
+  height: 100%;
+}

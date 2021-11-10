@@ -1,9 +1,10 @@
 import React from 'react';
 
-export function addcanvas(){
+
+export function Addcanvas(){
     return (
         <canvas id='canvas1'>
-            
+
         </canvas>
     );
 }
