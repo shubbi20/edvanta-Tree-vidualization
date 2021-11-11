@@ -1,4 +1,4 @@
-import {BSTNode} from './node';
+import BSTNode from './node';
 
 class BinarySearchTree{
     constructor(canvas){
@@ -104,7 +104,7 @@ class BinarySearchTree{
            _drawNode(context, startX, startY, radius, sAngle, eAngle, xWidth, 0, ySpace, lightGreen, darkGreen, black, this._root, currentValue);
         }
      }
-      //Tree over here
+      //Tree ends here
     
  }
 
@@ -174,3 +174,5 @@ class BinarySearchTree{
        _drawNode(context, nextX, nextY, radius, sAngle, eAngle, delta_x, depth + 1, ySpace, nodeBackground, borderColor, textColor, node.right,currentValue);
     }
  }
+
+ export default BinarySearchTree;

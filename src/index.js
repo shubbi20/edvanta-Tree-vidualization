@@ -7,12 +7,11 @@ import {Addcanvas} from './components/Addingcanvas.js';
 function Container(){
   return(
     <div className='containerbox'>
-    <div className='headingtext'>BST VISULIZATION</div>
+    <div className='headingtext'>BST VISUALIZATION</div>
       <Actionsection/>
       <Addcanvas/>
-
+      
     </div>
-
   );
 }
 
